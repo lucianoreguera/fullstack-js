@@ -1,0 +1,16 @@
+{
+  "name": "fullstack-js-desktop",
+  "version": "1.0.0",
+  "description": "Aplicacion en electron",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder -l"
+  },
+  "author": "Luciano Reguera",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^9.0.0",
+    "electron-builder": "^22.7.0"
+  }
+}
